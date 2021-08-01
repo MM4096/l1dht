@@ -1,6 +1,5 @@
 body {
-	background-image: url(background.png);
-	background-repeat: no-repeat;
+	background-image: url("background.png");
 	background-size: 100% auto;
 }
 .nav{
@@ -24,9 +23,11 @@ body {
 }
 .text {
 	width: 75%;
+	height: 800px;
 	margin: 0 auto;
-}
-.text img{
-	width: 100%;
-	background-color: #fff;
+	background-color: #ffffff;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	font-family: sans-serif;
 }
